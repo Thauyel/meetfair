@@ -2,6 +2,8 @@
 
 A fair place to meet, for everyone.
 
+**Live:** https://meetfair-mu.vercel.app
+
 Add 2–6 people, each with their own way of travelling (car, walk, bike or public transport). Pick what you want (café, restaurant, park… or search "sushi"). meetfair finds places where **nobody travels too long**. It is built on free, open data.
 
 ## How it works
@@ -58,10 +60,10 @@ LIVE=1 npx vitest run  # manual smoke test against the real public servers; run 
 
 ## Deploy
 
-The project deploys to Vercel as is. Before a public launch:
+The project deploys to Vercel as is: every push to `main` deploys production through the Git integration.
 
-- Add a Vercel Firewall rate-limit rule on `/api/*`.
-- Tell the Transitous team about the app (Matrix channel), as their API policy asks.
+- Vercel Firewall rate-limits `/api/search` to 10 requests per minute per IP. The Hobby plan allows only one rate-limit rule; geocoding is CDN-cached instead.
+- Before promoting the app widely, tell the Transitous team about it (Matrix channel), as their API policy asks.
 
 ## Data and fair use
 
