@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "title": "meetfair · um lugar justo para se encontrar",
+    "description": "Encontre um café, restaurante ou parque onde ninguém do grupo viaje demais — de carro, a pé, de bicicleta ou de transporte público."
+  },
+  "header": {
+    "tagline": "Um ponto de encontro justo para todos",
+    "language": "Idioma",
+    "theme": "Tema",
+    "system": "Sistema",
+    "light": "Claro",
+    "dark": "Escuro"
+  },
+  "people": {
+    "title": "Quem vem?",
+    "person": "Pessoa {n}",
+    "remove": "Remover {name}",
+    "add": "Adicionar pessoa",
+    "max": "Até {max} pessoas"
+  },
+  "location": {
+    "placeholder": "Endereço, lugar, link do mapa ou lat, lon",
+    "inputLabel": "Ponto de partida de {name}",
+    "gps": "Usar minha localização",
+    "pin": "Escolher no mapa",
+    "pinActive": "Toque no mapa para posicionar {name}",
+    "cancelPin": "Cancelar escolha no mapa",
+    "locating": "Procurando o lugar…",
+    "gpsDenied": "A permissão de localização foi negada",
+    "gpsFailed": "Não foi possível obter sua localização",
+    "noResults": "Nenhum resultado",
+    "linkUnreadable": "Não foi possível ler esse link. Cole as coordenadas ou o link completo do mapa (links curtos não funcionam).",
+    "pinned": "Alfinete marcado",
+    "clear": "Limpar"
+  },
+  "mode": {
+    "label": "Ir de",
+    "car": "Carro",
+    "walk": "A pé",
+    "bike": "Bicicleta",
+    "transit": "Transporte"
+  },
+  "venue": {
+    "title": "Para onde?",
+    "search": "Ou pesquise: sushi, jogos de tabuleiro…",
+    "searchLabel": "Pesquisar lugares por nome ou culinária",
+    "filters": "Filtros",
+    "open": "Aberto nesse horário",
+    "wheelchair": "Acesso para cadeira de rodas",
+    "outdoor": "Mesas ao ar livre",
+    "vegetarian": "Vegetariano"
+  },
+  "category": {
+    "cafe": "Café",
+    "restaurant": "Restaurante",
+    "bar": "Bar",
+    "fast_food": "Fast food",
+    "dessert": "Sobremesas",
+    "park": "Parque",
+    "museum": "Museu",
+    "cinema": "Cinema e teatro",
+    "other": "Lugar"
+  },
+  "time": {
+    "title": "Quando?",
+    "now": "Agora",
+    "pick": "Escolher horário",
+    "label": "Data e hora do encontro"
+  },
+  "search": {
+    "button": "Encontrar um lugar justo",
+    "searching": "Procurando…",
+    "needPeople": "Adicione um ponto de partida para todos",
+    "needWhat": "Escolha uma categoria ou digite o que procura",
+    "stage": {
+      "areas": "Calculando até onde cada um consegue ir",
+      "zone": "Procurando onde as áreas de todos se cruzam",
+      "venues": "Procurando lugares na área em comum",
+      "times": "Calculando os tempos exatos de viagem"
+    }
+  },
+  "results": {
+    "title": "Melhores lugares",
+    "count": "{count, plural, =0 {Nenhum lugar encontrado} one {# lugar encontrado} other {# lugares encontrados}}",
+    "sort": {
+      "fair": "Viagem mais longa mais curta",
+      "equal": "Mais equilibrado",
+      "total": "Menor tempo total"
+    },
+    "none": "Nenhum lugar onde todos possam se encontrar. Tente outra categoria ou menos filtros.",
+    "budget": "Todos conseguem chegar a esses lugares em cerca de {min} minutos.",
+    "farApart": "Vocês estão longe, então esses lugares ficam perto do centro do grupo, e não numa área de tempo de viagem em comum.",
+    "estimated": "Os tempos de {names} são estimativas porque o serviço de rotas não respondeu.",
+    "limited": "Os detalhes dos lugares estão limitados agora, então alguns filtros não puderam ser verificados.",
+    "transitNote": "Os tempos de transporte público usam dados comunitários gratuitos; a cobertura varia por cidade.",
+    "longest": "Viagem mais longa: {time}",
+    "fair": "Justo",
+    "open": "Aberto",
+    "closed": "Fechado",
+    "hoursUnknown": "Horário desconhecido",
+    "directions": "Rotas",
+    "directionsFor": "Rotas para {name}",
+    "unreachable": "Sem rota",
+    "retry": "Tentar novamente",
+    "error": {
+      "bad_request": "Algo na pesquisa era inválido. Verifique os pontos de partida.",
+      "too_far": "As pessoas estão longe demais (mais de {km} km).",
+      "providers_down": "Os serviços de mapa estão ocupados. Tente de novo em um minuto.",
+      "internal": "Algo deu errado. Tente novamente.",
+      "network": "Não foi possível acessar o servidor. Verifique sua conexão."
+    }
+  },
+  "share": {
+    "button": "Compartilhar",
+    "title": "Vamos nos encontrar aqui",
+    "copied": "Link copiado",
+    "failed": "Não foi possível copiar o link"
+  },
+  "recent": {
+    "title": "Pesquisas recentes",
+    "clear": "Limpar"
+  },
+  "map": {
+    "label": "Mapa",
+    "venuePin": "Resultado {rank}: {name}"
+  },
+  "footer": {
+    "h1": "meetfair: encontre um lugar justo para se encontrar",
+    "privacy": "Sem contas, sem rastreamento: sua pesquisa fica só no link",
+    "data": "Dados",
+    "source": "Código-fonte"
+  }
+}

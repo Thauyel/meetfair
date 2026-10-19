@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "title": "meetfair · a fair place to meet",
+    "description": "Find a café, restaurant or park where nobody in your group travels too long — by car, on foot, by bike or by public transport."
+  },
+  "header": {
+    "tagline": "A fair place to meet, for everyone",
+    "language": "Language",
+    "theme": "Theme",
+    "system": "System",
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "people": {
+    "title": "Who's coming?",
+    "person": "Person {n}",
+    "remove": "Remove {name}",
+    "add": "Add person",
+    "max": "Up to {max} people"
+  },
+  "location": {
+    "placeholder": "Address, place, map link or lat, lon",
+    "inputLabel": "Starting point for {name}",
+    "gps": "Use my location",
+    "pin": "Pick on the map",
+    "pinActive": "Tap the map to place {name}",
+    "cancelPin": "Cancel picking on the map",
+    "locating": "Finding the place…",
+    "gpsDenied": "Location permission was denied",
+    "gpsFailed": "Couldn't get your location",
+    "noResults": "No matches",
+    "linkUnreadable": "Couldn't read that link. Paste coordinates or the full map link (short links don't work).",
+    "pinned": "Dropped pin",
+    "clear": "Clear"
+  },
+  "mode": {
+    "label": "Travel by",
+    "car": "Car",
+    "walk": "Walk",
+    "bike": "Bike",
+    "transit": "Transit"
+  },
+  "venue": {
+    "title": "Where to?",
+    "search": "Or search: sushi, board games…",
+    "searchLabel": "Search places by name or cuisine",
+    "filters": "Filters",
+    "open": "Open then",
+    "wheelchair": "Wheelchair access",
+    "outdoor": "Outdoor seating",
+    "vegetarian": "Vegetarian"
+  },
+  "category": {
+    "cafe": "Café",
+    "restaurant": "Restaurant",
+    "bar": "Bar",
+    "fast_food": "Fast food",
+    "dessert": "Dessert",
+    "park": "Park",
+    "museum": "Museum",
+    "cinema": "Cinema & theatre",
+    "other": "Place"
+  },
+  "time": {
+    "title": "When?",
+    "now": "Now",
+    "pick": "Pick a time",
+    "label": "Meeting date and time"
+  },
+  "search": {
+    "button": "Find a fair place",
+    "searching": "Searching…",
+    "needPeople": "Add a starting point for everyone",
+    "needWhat": "Pick a category or type what you're looking for",
+    "stage": {
+      "areas": "Working out how far everyone can travel",
+      "zone": "Finding where everyone's areas overlap",
+      "venues": "Looking for places in the overlap",
+      "times": "Calculating exact travel times"
+    }
+  },
+  "results": {
+    "title": "Best places",
+    "count": "{count, plural, =0 {No places found} one {# place found} other {# places found}}",
+    "sort": {
+      "fair": "Shortest longest trip",
+      "equal": "Most equal",
+      "total": "Least total time"
+    },
+    "none": "No places found where everyone can meet. Try another category or fewer filters.",
+    "budget": "Everyone can get to these places within about {min} minutes.",
+    "farApart": "You're far apart, so these places are near the middle of the group rather than in a shared travel-time area.",
+    "estimated": "Travel times for {names} are rough estimates because the routing service didn't answer.",
+    "limited": "Place details are limited right now, so some filters couldn't be checked.",
+    "transitNote": "Public transport times use free community data; coverage varies by city.",
+    "longest": "Longest trip: {time}",
+    "fair": "Fair",
+    "open": "Open",
+    "closed": "Closed",
+    "hoursUnknown": "Hours unknown",
+    "directions": "Directions",
+    "directionsFor": "Directions for {name}",
+    "unreachable": "No route",
+    "retry": "Try again",
+    "error": {
+      "bad_request": "Something in the search was invalid. Please check the starting points.",
+      "too_far": "People are too far apart (more than {km} km).",
+      "providers_down": "The map services are busy right now. Please try again in a minute.",
+      "internal": "Something went wrong. Please try again.",
+      "network": "Couldn't reach the server. Check your connection."
+    }
+  },
+  "share": {
+    "button": "Share",
+    "title": "Let's meet here",
+    "copied": "Link copied",
+    "failed": "Couldn't copy the link"
+  },
+  "recent": {
+    "title": "Recent searches",
+    "clear": "Clear"
+  },
+  "map": {
+    "label": "Map",
+    "venuePin": "Result {rank}: {name}"
+  },
+  "footer": {
+    "h1": "meetfair: find a fair place to meet",
+    "privacy": "No accounts, no tracking: your search lives only in the link",
+    "data": "Data",
+    "source": "Source code"
+  }
+}

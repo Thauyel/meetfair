@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "title": "meetfair · tempat bertemu yang adil",
+    "description": "Temukan kafe, restoran, atau taman yang tidak membuat siapa pun di grupmu menempuh perjalanan terlalu lama — dengan mobil, jalan kaki, sepeda, atau transportasi umum."
+  },
+  "header": {
+    "tagline": "Tempat bertemu yang adil untuk semua",
+    "language": "Bahasa",
+    "theme": "Tema",
+    "system": "Sistem",
+    "light": "Terang",
+    "dark": "Gelap"
+  },
+  "people": {
+    "title": "Siapa saja yang datang?",
+    "person": "Orang {n}",
+    "remove": "Hapus {name}",
+    "add": "Tambah orang",
+    "max": "Maksimal {max} orang"
+  },
+  "location": {
+    "placeholder": "Alamat, tempat, tautan peta, atau lat, lon",
+    "inputLabel": "Titik awal untuk {name}",
+    "gps": "Gunakan lokasi saya",
+    "pin": "Pilih di peta",
+    "pinActive": "Ketuk peta untuk menempatkan {name}",
+    "cancelPin": "Batalkan pemilihan di peta",
+    "locating": "Mencari tempat…",
+    "gpsDenied": "Izin lokasi ditolak",
+    "gpsFailed": "Tidak dapat mengambil lokasimu",
+    "noResults": "Tidak ada yang cocok",
+    "linkUnreadable": "Tautan itu tidak dapat dibaca. Tempel koordinat atau tautan peta lengkap (tautan pendek tidak berfungsi).",
+    "pinned": "Pin yang ditempatkan",
+    "clear": "Hapus"
+  },
+  "mode": {
+    "label": "Bepergian dengan",
+    "car": "Mobil",
+    "walk": "Jalan kaki",
+    "bike": "Sepeda",
+    "transit": "Angkutan umum"
+  },
+  "venue": {
+    "title": "Ke mana?",
+    "search": "Atau cari: sushi, permainan papan…",
+    "searchLabel": "Cari tempat berdasarkan nama atau masakan",
+    "filters": "Filter",
+    "open": "Buka saat itu",
+    "wheelchair": "Akses kursi roda",
+    "outdoor": "Tempat duduk luar",
+    "vegetarian": "Vegetarian"
+  },
+  "category": {
+    "cafe": "Kafe",
+    "restaurant": "Restoran",
+    "bar": "Bar",
+    "fast_food": "Makanan cepat saji",
+    "dessert": "Pencuci mulut",
+    "park": "Taman",
+    "museum": "Museum",
+    "cinema": "Bioskop & teater",
+    "other": "Tempat"
+  },
+  "time": {
+    "title": "Kapan?",
+    "now": "Sekarang",
+    "pick": "Pilih waktu",
+    "label": "Tanggal dan jam bertemu"
+  },
+  "search": {
+    "button": "Cari tempat yang adil",
+    "searching": "Mencari…",
+    "needPeople": "Tambahkan titik awal untuk semua orang",
+    "needWhat": "Pilih kategori atau ketik yang kamu cari",
+    "stage": {
+      "areas": "Menghitung seberapa jauh setiap orang bisa pergi",
+      "zone": "Mencari tempat area semua orang bertemu",
+      "venues": "Mencari tempat di area bersama",
+      "times": "Menghitung waktu perjalanan yang tepat"
+    }
+  },
+  "results": {
+    "title": "Tempat terbaik",
+    "count": "{count, plural, =0 {Tidak ada tempat ditemukan} other {# tempat ditemukan}}",
+    "sort": {
+      "fair": "Perjalanan terlama paling singkat",
+      "equal": "Paling merata",
+      "total": "Total waktu tersedikit"
+    },
+    "none": "Tidak ada tempat di mana semua orang bisa bertemu. Coba kategori lain atau kurangi filter.",
+    "budget": "Semua orang bisa mencapai tempat-tempat ini dalam sekitar {min} menit.",
+    "farApart": "Kalian berjauhan, jadi tempat-tempat ini berada di dekat tengah grup, bukan di area waktu tempuh bersama.",
+    "estimated": "Waktu perjalanan untuk {names} hanyalah perkiraan kasar karena layanan rute tidak merespons.",
+    "limited": "Detail tempat sedang terbatas, jadi beberapa filter tidak dapat diperiksa.",
+    "transitNote": "Waktu transportasi umum memakai data komunitas gratis; cakupannya berbeda di tiap kota.",
+    "longest": "Perjalanan terlama: {time}",
+    "fair": "Adil",
+    "open": "Buka",
+    "closed": "Tutup",
+    "hoursUnknown": "Jam buka tidak diketahui",
+    "directions": "Petunjuk arah",
+    "directionsFor": "Petunjuk arah untuk {name}",
+    "unreachable": "Tidak ada rute",
+    "retry": "Coba lagi",
+    "error": {
+      "bad_request": "Ada yang tidak valid dalam pencarian. Periksa titik awalnya.",
+      "too_far": "Orang-orang terlalu berjauhan (lebih dari {km} km).",
+      "providers_down": "Layanan peta sedang sibuk. Coba lagi dalam satu menit.",
+      "internal": "Terjadi kesalahan. Silakan coba lagi.",
+      "network": "Tidak dapat menghubungi server. Periksa koneksimu."
+    }
+  },
+  "share": {
+    "button": "Bagikan",
+    "title": "Ayo bertemu di sini",
+    "copied": "Tautan disalin",
+    "failed": "Tautan tidak dapat disalin"
+  },
+  "recent": {
+    "title": "Pencarian terbaru",
+    "clear": "Hapus"
+  },
+  "map": {
+    "label": "Peta",
+    "venuePin": "Hasil {rank}: {name}"
+  },
+  "footer": {
+    "h1": "meetfair: temukan tempat bertemu yang adil",
+    "privacy": "Tanpa akun, tanpa pelacakan: pencarianmu hanya ada di tautan",
+    "data": "Data",
+    "source": "Kode sumber"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "title": "meetfair · un lieu équitable pour se retrouver",
+    "description": "Trouvez un café, un restaurant ou un parc où personne du groupe ne voyage trop longtemps — en voiture, à pied, à vélo ou en transports en commun."
+  },
+  "header": {
+    "tagline": "Un lieu de rendez-vous équitable pour tous",
+    "language": "Langue",
+    "theme": "Thème",
+    "system": "Système",
+    "light": "Clair",
+    "dark": "Sombre"
+  },
+  "people": {
+    "title": "Qui vient ?",
+    "person": "Personne {n}",
+    "remove": "Retirer {name}",
+    "add": "Ajouter une personne",
+    "max": "Jusqu'à {max} personnes"
+  },
+  "location": {
+    "placeholder": "Adresse, lieu, lien de carte ou lat, lon",
+    "inputLabel": "Point de départ de {name}",
+    "gps": "Utiliser ma position",
+    "pin": "Choisir sur la carte",
+    "pinActive": "Touchez la carte pour placer {name}",
+    "cancelPin": "Annuler le choix sur la carte",
+    "locating": "Recherche du lieu…",
+    "gpsDenied": "L'autorisation de localisation a été refusée",
+    "gpsFailed": "Impossible d'obtenir votre position",
+    "noResults": "Aucun résultat",
+    "linkUnreadable": "Impossible de lire ce lien. Collez des coordonnées ou le lien complet de la carte (les liens courts ne fonctionnent pas).",
+    "pinned": "Épingle placée",
+    "clear": "Effacer"
+  },
+  "mode": {
+    "label": "Se déplacer en",
+    "car": "Voiture",
+    "walk": "À pied",
+    "bike": "Vélo",
+    "transit": "Transports"
+  },
+  "venue": {
+    "title": "Où ?",
+    "search": "Ou cherchez : sushi, jeux de société…",
+    "searchLabel": "Chercher des lieux par nom ou cuisine",
+    "filters": "Filtres",
+    "open": "Ouvert à ce moment",
+    "wheelchair": "Accès fauteuil roulant",
+    "outdoor": "Terrasse",
+    "vegetarian": "Végétarien"
+  },
+  "category": {
+    "cafe": "Café",
+    "restaurant": "Restaurant",
+    "bar": "Bar",
+    "fast_food": "Restauration rapide",
+    "dessert": "Desserts",
+    "park": "Parc",
+    "museum": "Musée",
+    "cinema": "Cinéma et théâtre",
+    "other": "Lieu"
+  },
+  "time": {
+    "title": "Quand ?",
+    "now": "Maintenant",
+    "pick": "Choisir une heure",
+    "label": "Date et heure du rendez-vous"
+  },
+  "search": {
+    "button": "Trouver un lieu équitable",
+    "searching": "Recherche…",
+    "needPeople": "Ajoutez un point de départ pour chacun",
+    "needWhat": "Choisissez une catégorie ou tapez ce que vous cherchez",
+    "stage": {
+      "areas": "Calcul de la distance que chacun peut parcourir",
+      "zone": "Recherche de la zone où tout le monde se rejoint",
+      "venues": "Recherche de lieux dans la zone commune",
+      "times": "Calcul des temps de trajet exacts"
+    }
+  },
+  "results": {
+    "title": "Meilleurs lieux",
+    "count": "{count, plural, =0 {Aucun lieu trouvé} one {# lieu trouvé} other {# lieux trouvés}}",
+    "sort": {
+      "fair": "Trajet le plus long le plus court",
+      "equal": "Le plus équilibré",
+      "total": "Temps total minimal"
+    },
+    "none": "Aucun lieu où tout le monde peut se retrouver. Essayez une autre catégorie ou moins de filtres.",
+    "budget": "Tout le monde peut rejoindre ces lieux en environ {min} minutes.",
+    "farApart": "Vous êtes éloignés, ces lieux sont donc proches du centre du groupe plutôt que dans une zone de temps de trajet commune.",
+    "estimated": "Les temps de trajet de {names} sont des estimations, car le service d'itinéraires n'a pas répondu.",
+    "limited": "Les détails des lieux sont limités en ce moment, certains filtres n'ont donc pas pu être vérifiés.",
+    "transitNote": "Les temps en transports en commun utilisent des données communautaires gratuites ; la couverture varie selon les villes.",
+    "longest": "Trajet le plus long : {time}",
+    "fair": "Équitable",
+    "open": "Ouvert",
+    "closed": "Fermé",
+    "hoursUnknown": "Horaires inconnus",
+    "directions": "Itinéraire",
+    "directionsFor": "Itinéraire pour {name}",
+    "unreachable": "Pas d'itinéraire",
+    "retry": "Réessayer",
+    "error": {
+      "bad_request": "Quelque chose n'était pas valide dans la recherche. Vérifiez les points de départ.",
+      "too_far": "Les personnes sont trop éloignées (plus de {km} km).",
+      "providers_down": "Les services de cartes sont saturés. Réessayez dans une minute.",
+      "internal": "Une erreur s'est produite. Veuillez réessayer.",
+      "network": "Impossible de joindre le serveur. Vérifiez votre connexion."
+    }
+  },
+  "share": {
+    "button": "Partager",
+    "title": "Retrouvons-nous ici",
+    "copied": "Lien copié",
+    "failed": "Impossible de copier le lien"
+  },
+  "recent": {
+    "title": "Recherches récentes",
+    "clear": "Effacer"
+  },
+  "map": {
+    "label": "Carte",
+    "venuePin": "Résultat {rank} : {name}"
+  },
+  "footer": {
+    "h1": "meetfair : trouvez un lieu équitable pour vous retrouver",
+    "privacy": "Pas de compte, pas de pistage : votre recherche n'existe que dans le lien",
+    "data": "Données",
+    "source": "Code source"
+  }
+}

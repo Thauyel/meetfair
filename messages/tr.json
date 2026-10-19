@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "title": "meetfair · buluşmak için adil bir yer",
+    "description": "Grubunuzda kimsenin çok uzun yol gitmediği bir kafe, restoran veya park bulun: arabayla, yürüyerek, bisikletle ya da toplu taşımayla."
+  },
+  "header": {
+    "tagline": "Herkes için adil bir buluşma noktası",
+    "language": "Dil",
+    "theme": "Tema",
+    "system": "Sistem",
+    "light": "Açık",
+    "dark": "Koyu"
+  },
+  "people": {
+    "title": "Kimler geliyor?",
+    "person": "Kişi {n}",
+    "remove": "{name} kişisini kaldır",
+    "add": "Kişi ekle",
+    "max": "En fazla {max} kişi"
+  },
+  "location": {
+    "placeholder": "Adres, yer, harita bağlantısı veya enlem, boylam",
+    "inputLabel": "{name} için başlangıç noktası",
+    "gps": "Konumumu kullan",
+    "pin": "Haritada seç",
+    "pinActive": "{name} için haritaya dokunun",
+    "cancelPin": "Haritada seçmeyi iptal et",
+    "locating": "Yer bulunuyor…",
+    "gpsDenied": "Konum izni reddedildi",
+    "gpsFailed": "Konumunuz alınamadı",
+    "noResults": "Eşleşme yok",
+    "linkUnreadable": "Bu bağlantı okunamadı. Koordinatları veya tam harita bağlantısını yapıştırın (kısa bağlantılar çalışmaz).",
+    "pinned": "Bırakılan iğne",
+    "clear": "Temizle"
+  },
+  "mode": {
+    "label": "Ulaşım",
+    "car": "Araba",
+    "walk": "Yürüyüş",
+    "bike": "Bisiklet",
+    "transit": "Toplu taşıma"
+  },
+  "venue": {
+    "title": "Nereye?",
+    "search": "Veya arayın: suşi, kutu oyunları…",
+    "searchLabel": "Yerleri ada veya mutfağa göre ara",
+    "filters": "Filtreler",
+    "open": "O saatte açık",
+    "wheelchair": "Tekerlekli sandalye erişimi",
+    "outdoor": "Açık hava oturma alanı",
+    "vegetarian": "Vejetaryen"
+  },
+  "category": {
+    "cafe": "Kafe",
+    "restaurant": "Restoran",
+    "bar": "Bar",
+    "fast_food": "Fast food",
+    "dessert": "Tatlı",
+    "park": "Park",
+    "museum": "Müze",
+    "cinema": "Sinema ve tiyatro",
+    "other": "Yer"
+  },
+  "time": {
+    "title": "Ne zaman?",
+    "now": "Şimdi",
+    "pick": "Saat seç",
+    "label": "Buluşma tarihi ve saati"
+  },
+  "search": {
+    "button": "Adil bir yer bul",
+    "searching": "Aranıyor…",
+    "needPeople": "Herkes için bir başlangıç noktası ekleyin",
+    "needWhat": "Bir kategori seçin veya ne aradığınızı yazın",
+    "stage": {
+      "areas": "Herkesin ne kadar uzağa gidebileceği hesaplanıyor",
+      "zone": "Herkesin alanlarının kesiştiği yer bulunuyor",
+      "venues": "Kesişim alanındaki yerler aranıyor",
+      "times": "Kesin yolculuk süreleri hesaplanıyor"
+    }
+  },
+  "results": {
+    "title": "En iyi yerler",
+    "count": "{count, plural, =0 {Yer bulunamadı} other {# yer bulundu}}",
+    "sort": {
+      "fair": "En kısa en uzun yolculuk",
+      "equal": "En eşit",
+      "total": "En az toplam süre"
+    },
+    "none": "Herkesin buluşabileceği bir yer bulunamadı. Başka bir kategori deneyin veya filtreleri azaltın.",
+    "budget": "Herkes bu yerlere yaklaşık {min} dakika içinde ulaşabilir.",
+    "farApart": "Birbirinizden uzaksınız; bu yerler ortak bir yolculuk süresi alanı yerine grubun ortasına yakın.",
+    "estimated": "Yönlendirme servisi yanıt vermediği için {names} için süreler kabaca tahmindir.",
+    "limited": "Şu anda yer ayrıntıları sınırlı, bu yüzden bazı filtreler kontrol edilemedi.",
+    "transitNote": "Toplu taşıma süreleri ücretsiz topluluk verilerine dayanır; kapsam şehre göre değişir.",
+    "longest": "En uzun yolculuk: {time}",
+    "fair": "Adil",
+    "open": "Açık",
+    "closed": "Kapalı",
+    "hoursUnknown": "Saatler bilinmiyor",
+    "directions": "Yol tarifi",
+    "directionsFor": "{name} için yol tarifi",
+    "unreachable": "Rota yok",
+    "retry": "Tekrar dene",
+    "error": {
+      "bad_request": "Aramada geçersiz bir şey vardı. Lütfen başlangıç noktalarını kontrol edin.",
+      "too_far": "Kişiler birbirinden çok uzak ({km} km'den fazla).",
+      "providers_down": "Harita servisleri şu anda yoğun. Lütfen bir dakika sonra tekrar deneyin.",
+      "internal": "Bir şeyler ters gitti. Lütfen tekrar deneyin.",
+      "network": "Sunucuya ulaşılamadı. Bağlantınızı kontrol edin."
+    }
+  },
+  "share": {
+    "button": "Paylaş",
+    "title": "Hadi burada buluşalım",
+    "copied": "Bağlantı kopyalandı",
+    "failed": "Bağlantı kopyalanamadı"
+  },
+  "recent": {
+    "title": "Son aramalar",
+    "clear": "Temizle"
+  },
+  "map": {
+    "label": "Harita",
+    "venuePin": "Sonuç {rank}: {name}"
+  },
+  "footer": {
+    "h1": "meetfair: buluşmak için adil bir yer bulun",
+    "privacy": "Hesap yok, takip yok: aramanız yalnızca bağlantıda saklanır",
+    "data": "Veri",
+    "source": "Kaynak kodu"
+  }
+}

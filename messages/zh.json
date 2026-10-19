@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "title": "meetfair · 公平的见面地点",
+    "description": "找一家咖啡馆、餐厅或公园，让群组里没有人路上花太久：开车、步行、骑行或乘坐公共交通都可以。"
+  },
+  "header": {
+    "tagline": "对每个人都公平的见面地点",
+    "language": "语言",
+    "theme": "主题",
+    "system": "跟随系统",
+    "light": "浅色",
+    "dark": "深色"
+  },
+  "people": {
+    "title": "谁要来？",
+    "person": "第 {n} 人",
+    "remove": "移除{name}",
+    "add": "添加人员",
+    "max": "最多 {max} 人"
+  },
+  "location": {
+    "placeholder": "地址、地点、地图链接或纬度, 经度",
+    "inputLabel": "{name}的出发地",
+    "gps": "使用我的位置",
+    "pin": "在地图上选择",
+    "pinActive": "点击地图放置{name}",
+    "cancelPin": "取消地图选点",
+    "locating": "正在查找地点…",
+    "gpsDenied": "位置权限被拒绝",
+    "gpsFailed": "无法获取你的位置",
+    "noResults": "没有匹配结果",
+    "linkUnreadable": "无法读取该链接。请粘贴坐标或完整的地图链接（短链接无效）。",
+    "pinned": "已放置的图钉",
+    "clear": "清除"
+  },
+  "mode": {
+    "label": "出行方式",
+    "car": "开车",
+    "walk": "步行",
+    "bike": "骑行",
+    "transit": "公共交通"
+  },
+  "venue": {
+    "title": "去哪里？",
+    "search": "或搜索：寿司、桌游…",
+    "searchLabel": "按名称或菜系搜索地点",
+    "filters": "筛选",
+    "open": "届时营业",
+    "wheelchair": "轮椅可达",
+    "outdoor": "户外座位",
+    "vegetarian": "素食"
+  },
+  "category": {
+    "cafe": "咖啡馆",
+    "restaurant": "餐厅",
+    "bar": "酒吧",
+    "fast_food": "快餐",
+    "dessert": "甜品",
+    "park": "公园",
+    "museum": "博物馆",
+    "cinema": "电影院和剧院",
+    "other": "地点"
+  },
+  "time": {
+    "title": "什么时候？",
+    "now": "现在",
+    "pick": "选择时间",
+    "label": "见面日期和时间"
+  },
+  "search": {
+    "button": "寻找公平的地点",
+    "searching": "搜索中…",
+    "needPeople": "请为每个人添加出发地",
+    "needWhat": "请选择一个类别或输入你想找的内容",
+    "stage": {
+      "areas": "正在计算每个人能到达的范围",
+      "zone": "正在寻找所有人范围的重叠区域",
+      "venues": "正在重叠区域内查找地点",
+      "times": "正在计算精确的出行时间"
+    }
+  },
+  "results": {
+    "title": "最佳地点",
+    "count": "{count, plural, =0 {未找到地点} other {找到 # 个地点}}",
+    "sort": {
+      "fair": "最长行程最短",
+      "equal": "最均衡",
+      "total": "总时间最少"
+    },
+    "none": "没有找到所有人都能见面的地点。试试其他类别或减少筛选条件。",
+    "budget": "每个人都能在大约 {min} 分钟内到达这些地点。",
+    "farApart": "你们相距较远，因此这些地点位于群组的中间位置，而不是共同的出行时间范围内。",
+    "estimated": "由于路线服务未响应，{names}的出行时间为粗略估计。",
+    "limited": "目前地点详情有限，部分筛选条件无法核实。",
+    "transitNote": "公共交通时间使用免费的社区数据，覆盖范围因城市而异。",
+    "longest": "最长行程：{time}",
+    "fair": "公平",
+    "open": "营业中",
+    "closed": "已打烊",
+    "hoursUnknown": "营业时间未知",
+    "directions": "路线",
+    "directionsFor": "{name}的路线",
+    "unreachable": "无路线",
+    "retry": "重试",
+    "error": {
+      "bad_request": "搜索内容无效，请检查出发地。",
+      "too_far": "人员之间距离太远（超过 {km} 公里）。",
+      "providers_down": "地图服务目前繁忙，请一分钟后重试。",
+      "internal": "出了点问题，请重试。",
+      "network": "无法连接服务器，请检查网络连接。"
+    }
+  },
+  "share": {
+    "button": "分享",
+    "title": "我们在这里见面吧",
+    "copied": "链接已复制",
+    "failed": "无法复制链接"
+  },
+  "recent": {
+    "title": "最近搜索",
+    "clear": "清除"
+  },
+  "map": {
+    "label": "地图",
+    "venuePin": "结果 {rank}：{name}"
+  },
+  "footer": {
+    "h1": "meetfair：寻找公平的见面地点",
+    "privacy": "无需账号，没有追踪：你的搜索只保存在链接中",
+    "data": "数据",
+    "source": "源代码"
+  }
+}
