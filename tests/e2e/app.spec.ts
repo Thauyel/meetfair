@@ -61,6 +61,12 @@ test("Arabic renders right-to-left and translated", async ({ page }) => {
   await expect(page.getByRole("button", { name: "ابحث عن مكان عادل" })).toBeVisible();
 });
 
+test("unknown top-level paths are 404, not a server error", async ({ request }) => {
+  for (const path of ["/favicon.ico", "/xx", "/robots.txt"]) {
+    expect((await request.get(path, { maxRedirects: 0 })).status(), path).toBe(404);
+  }
+});
+
 test("follows the system dark theme", async ({ browser }) => {
   const context = await browser.newContext({ colorScheme: "dark" });
   const page = await context.newPage();
